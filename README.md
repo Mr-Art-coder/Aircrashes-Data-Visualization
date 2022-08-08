@@ -48,6 +48,7 @@ Different visuals were used in the project, cards, line chart, stacked chart, Ta
 
 # Findings 
 ![Dashboard](https://github.com/Mr-Art-coder/Aircrashes-Data-Visualization/blob/main/Dashboard.JPG)
+
 The first crash happened on Thursday, 5 1918 in the USA at Dayton-McCook Filed Ohio which was 10km away from the Airport, it happened due to technical failure, and it led to the death of two occupants of the plane. The highest record of fatality record where 4636 was recorded in 737 crashes.
 
 The first crash in Nigeria occurred at Portharcourt on May 22, 1937, it was caused because the airplane engine stalled and crashed short of runaway, the aircraft was damaged beyond repair and all five occupants were injured.
