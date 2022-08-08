@@ -5,14 +5,14 @@
 
 # Introduction
 
-This is a Project on Airplane Crashes and Fatalities Since 1908. In this visualization, the numbers of the following which include, location, fatality onboard, fatality on the ground, people aboard, people who escaped, and the numbers of operators were determined using cards while other analyses were made using different visuals.
+This is a Project on Airplane Crashes and Fatalities Since 1918. Insight was gotten from the dashboard using using different visuals.
 
 -----
 
 # Problem Statement
 ![Statement](https://github.com/Mr-Art-coder/Aircrashes-Data-Visualization/blob/main/Problem%20Statement.png)
 
-In the 30Daysoflearning course organized by Microsoft, a dataset was given which consists of data on airplane crashes and fatalities since 1908 with the task to tell a visual story from this Data. The motive behind this project is to analyze and visualize some key details about the perilous crashes which seized the lives of people, to find out the highest fatality rate, the operator involved, the date, time numbers of people aboard during the fatality, and the number of people who escaped death.
+In the 30Daysoflearning course organized by Microsoft, a dataset was given which consists of data on airplane crashes and fatalities since 1918 with the task to tell a visual story from this Data. The motive behind this project is to analyze and visualize some key details about the perilous crashes which seized the lives of people, to find out the highest fatality rate, the operator involved, the date, time numbers of people aboard during the fatality, and the number of people who escaped death.
 After a critical examination of the dataset, I was able to come out with the following questions which were later visualized: 
 -	What is the totality of people onboard in all the crashes?
 -	What is the totality of the people who were aboard and went with the crashes?
@@ -33,7 +33,7 @@ The data was cloned from the 30daysoflearning GitHub repository which was origin
 ----
 
 # Data Transformation
-![Power Query](https://github.com/Mr-Art-coder/Aircrashes-Data-Visualization/blob/main/Power%20Query.JPG)
+
 
 The data contains 13 columns which include, Date, Time, Location, Operator, Flight, Route, Type, Registration, Cn/in, Aboard, Fatalities, Ground, and Summary.
 The transformation started by using the first row as a header, then # was removed from the spelling of Flight and Cn/in was changed to Serial Number for easy understanding of the data.
@@ -41,26 +41,16 @@ In the flight column, all – values were removed. A new column was added, for e
 
 ----
 
-# Analysis 
-![Operator Page](https://github.com/Mr-Art-coder/Aircrashes-Data-Visualization/blob/main/Operator%20Page.JPG)
-
-To derive the conclusion and have to concreate dashboard that answers all our questions, two pages were used to analyze the data using different visuals with different names, the Operator page and Location page.
-
-![Location Page](https://github.com/Mr-Art-coder/Aircrashes-Data-Visualization/blob/main/Location%20Page.JPG)
-
-Numbers of people aboard, numbers of fatalities, numbers of causalities on ground, numbers of people who escaped, etc. were analyzed by Operator on the operator page, while the aforementioned was analyzed by Location on the operation page. Slicer was used to analyze the two pages by Type and date
-
-----
-
 # Visualization
-Different visuals were used in the project, cards, line chart, stacked chart, donut chart, and ribbon chart were used to analyze and visualize in the Operator page whiletreemaprd, tree map, line, and clustered column chart, and stacked bar chart were used to analyze and visualize in the Location page
+Different visuals were used in the project, cards, line chart, stacked chart, Table, etc. were used to analyze and visualize in the Operator page whiletreemaprd, tree map, line, and clustered column chart, and stacked bar chart were used to analyze and visualize in the Location page
 
 ----
 
 # Findings 
 ![Dashboard](https://github.com/Mr-Art-coder/Aircrashes-Data-Visualization/blob/main/Dashboard.JPG)
-Since 1908, Aeroflot Operator recorded the highest number of fatalities of 7156 people which also caused the death of 28 people on the ground in all the years of crashes. Only 1714 people escaped the crashes out of 8870 aboard. This Operator had involved in 179 crashes.
-The highest number of causalities, in a year, happened in Tenerife, Canary Islands where 583 lives were lost out of 644 people who were aboard 61 people escaped. This crash occurred in 1977 at 17:07 (6:07 pm). The flight types involved were Boeing B-747-121 and Boeing B-747-206B operated by Pan American World Airways and KLM respectively. Both aircraft crashed in Las Palmas in Tenerife. They were diverted to the location because of a bombing.
+The first crash happened on Thursday, 5 1918 in the USA at Dayton-McCook Filed Ohio which was 10km away from the Airport, it happened due to technical failure, and it led to the death of two occupants of the plane. The highest record of fatality record where 4636 was recorded in 737 crashes.
+
+The first crash in Nigeria occurred at Portharcourt on May 22, 1937, it was caused because the airplane engine stalled and crashed short of runaway, the aircraft was damaged beyond repair and all five occupants were injured.
 
 ----
 
